@@ -3,7 +3,7 @@
 ## Overview
  
 ### Background
-Client has requested Tableau visualizations of NYC CitiBike bikeshare trip data to pitch to investors on a similar product for Des Moines, Iowa.
+Client has requested Tableau visualizations of NYC CitiBike bikeshare trip data to pitch to investors on a similar product for Des Moines, Iowa.  
 
 ### Purpose
 The purpose of these visulaizations is to share information with stakeholders to empower their decision to invest in the Des Moines bikesharing project.  This will be a deeper dive than the [Phase1](https://public.tableau.com/views/CitiBikeNYC_Phase1/NYCCitiBikeStoryPhase1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) report. 
@@ -13,7 +13,7 @@ The visualized data should tell the story of the NYC bikeshare business: how man
 ### Deliverables
  - Convert trip duration data to datetime format via Python
  - Create at least 7 visualizations for trip analysis
- - Create a Tableau Story and report for a presentation to stakeholders
+ - Create a Tableau [Story](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/NYCStory?publish=yes) and report for a presentation to stakeholders
  
 ### Resources
  - Data Sources: [citibike System Data](https://ride.citibikenyc.com/system-data)
@@ -25,7 +25,7 @@ The visualized data should tell the story of the NYC bikeshare business: how man
  - Trip duration data in the [citibike resource](https://ride.citibikenyc.com/system-data) was converted to datetime format shown [here](https://github.com/aberloro/bikesharing/blob/main/NYC_CitiBike_Challenge.ipynb).
  - Visualizations for [Phase1](https://public.tableau.com/views/CitiBikeNYC_Phase1/NYCCitiBikeStoryPhase1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) and [Phase2](https://public.tableau.com/views/CitiBikeNYC_Phase2/NYCStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) were done in Tableau Public. 
 
-### [Story Point 1](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/WhoRidesWhen?publish=yes): Who are the users?
+### Story Point 1: Who are the users?
 
 ![who](https://user-images.githubusercontent.com/93740725/161343097-6fa21d90-72fc-4de4-b45c-f9959942f827.png)
 
@@ -35,7 +35,7 @@ Users can also be segmented by gender and by age to look at usage patterns.  By 
 
 Understanding these customer segments and the differences in their prefered style of bikesharing will help inform successful marketing and logistics planning when evaluating the proposed business in Iowa.  
 
- ### [Story Point 2](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/WhoRidesWhen?publish=yes): Where do users ride?
+ ### Story Point 2: Where do users ride?
 
 ![where](https://user-images.githubusercontent.com/93740725/161343112-203356e2-0a46-4400-b9ae-06d7b4e3eafc.png)
 
@@ -45,13 +45,13 @@ The main transportation agency in Des Moines is DART, and their central station 
 
 Another important observation from these maps shows that there is close alignment between pick-ups and drops-offs at major stations in NYC, though it is not exact alignment. If this trend can be expected in Des Moines, bikes will have to be moved between stations during non-peak hours to ensure supply meets demand at high performing stations.  
 
-### [Story Point 3](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/WhoRidesWhen?publish=yes): When do users ride?
+### Story Point 3: When do users ride?
 
 ![when1](https://user-images.githubusercontent.com/93740725/161343144-bce70aae-3027-4381-994d-ef2fcb348671.png)
 
 These visualizations show daily peak hours, as well as weekly.  Overall, most rides are booked during standard commute hours, with users favoring the afternoon commute for bike rentals.  While weekday rides are most prominant during cummute hours, weekend rentals are concentrated in the mid-mornings through 6-7pm.  The least popular times to rent are 3:00 and 4:00am, and maintenace and supply re-alignment should occur during these times. 
 
-### [Story Point 4](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/WhoRidesWhen?publish=yes): A closer look at who is out and when.
+### Story Point 4: A closer look at who is out and when.
 
 ![when2](https://user-images.githubusercontent.com/93740725/161343173-c5a10a22-cf37-404a-8ca6-1258833c4c1a.png)
 
@@ -61,7 +61,7 @@ Users segmented by gender show similar ridership patterns per weekday hour, with
 
 Ther are two observations when looking at ridership based on user type and gender.  Non-binary riders are more active as customers than as subscribers.  Male and female riders are more active as subscribers than as customers. 
 
-### [Story Point 5](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/WhoRidesWhen?publish=yes): How long are the rentals?
+### Story Point 5: How long are the rentals?
 
 ![rideTimes](https://user-images.githubusercontent.com/93740725/161343202-7337bf60-eccc-4a1f-aa0f-45c099720cf2.png)
 
@@ -71,7 +71,7 @@ Overall most rides were within 20 minutes and there were more quick 5 minute ren
 
 The rental duration trendlines are similar when segmented by gender.  Male ridership peaks at 5 minutes, 7 for females, and 10 minutes for non-binary.  The trendlines change when you segment by user type.  Subscribers, as expected based on previous visualizations, have more total rides than customers.  Going a step further and filtering usertype by gender we see than the non-binary segment has far more customers than subscribers and their rides last 4x times longer.
 
-### [Story Point 6](https://public.tableau.com/app/profile/aurora.christensen/viz/CitiBikeNYC_Phase2/WhoRidesWhen?publish=yes): How much use does each bike get?
+### Story Point 6: How much use does each bike get?
 
 ![bikeUse](https://user-images.githubusercontent.com/93740725/161343386-a6582478-84b0-4ccb-952f-2bf6aafe05d9.png)
 
